@@ -1,0 +1,85 @@
+/*Header*/
+.jumbotron{
+    padding:1rem 3rem;
+    background-color: #fa26a0;
+    border-radius: 0px;
+    color:#fff;
+    font-weight: bolder;
+}
+
+/*Generelt*/
+body{
+    color:#333;
+}
+.row div{
+    margin: 20px auto
+}
+
+footer{
+    background-color: #fa26a0;
+    height:100px;
+    color:#fff;
+}
+
+.btn-outline-info{
+    border-color: #fa26a0;
+    color: hotpink;
+}
+
+
+.btn-outline-info:hover{
+    border-color: #fa26a0;
+    background-color: #fa26a0;
+}
+
+
+/*Cards*/
+h5{
+    text-decoration: underline;
+    font-weight: 600;
+}
+.card-title{
+    text-align: center;
+    color:#333;
+    width: 100%;
+}
+.card-body{
+    padding-top: 0px;
+}
+.card:hover .card-img-top{
+    filter:grayscale(0%);
+    height:27.1rem;
+    animation: pictureAnimation 0.2s;
+}
+.libtn{
+    border-color: #0072b1;
+    color: #0072b1;
+}
+.libtn:hover{
+    background-color: #0072b1;
+    border-color: #0072b1;
+}
+.libtn:hover span{
+    color:#fff;
+}
+.libtn:hover img{
+    filter:invert(100%);
+}
+.card-img-top{
+    height:27rem;
+    filter:grayscale(100%)
+}
+
+/*Animations and media*/
+
+@keyframes pictureAnimation{
+    from {filter:grayscale(100%); height:27rem;};
+    to{filter:grayscale(0%); height: 27.1rem;}
+}
+
+@media (max-width: 1000px){
+    .card-img-top{
+        filter:grayscale(0%);
+    }
+}
+
