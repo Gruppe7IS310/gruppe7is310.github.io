@@ -7,6 +7,13 @@
     font-weight: bolder;
 }
 
+.jumbotron h1{
+    text-align: center;
+}
+.jumbotron title{
+    font-weight: bolder;
+}
+
 /*Generelt*/
 body{
     color:#333;
@@ -73,7 +80,7 @@ h5{
 .card-img-top{
     filter:grayscale(100%);
     border-radius:25rem;
-    height: 100%;
+    height: 18rem;
 }
 .card-img-border{
     height: 18rem;
