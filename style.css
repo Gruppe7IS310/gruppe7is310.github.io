@@ -5,13 +5,14 @@
     border-radius: 0px;
     color:#fff;
     font-weight: bolder;
+    text-align: center;
 }
 
 .jumbotron h1{
     text-align: center;
 }
 .jumbotron title{
-    font-weight: bolder;
+    font-weight: bo;
 }
 
 /*Generelt*/
