@@ -1,6 +1,6 @@
 /*Header*/
 .jumbotron{
-    padding:1rem 3rem;
+    padding:2rem 3rem;
     background-color: #fa26a0;
     border-radius: 0px;
     color:#fff;
@@ -8,6 +8,26 @@
     text-align: center;
 }
 
+.navi{
+    padding-left: 31%;
+    padding-bottom: 1rem;
+    list-style: none;
+}
+.navi li{
+    margin-left: 2rem;
+    color:#fff;
+    float: left;
+    margin-bottom: 2rem;
+}
+.navi li a{
+    font-size: larger;
+    text-decoration: underline;
+    color: #fff;
+}
+.navi li a:hover{
+    text-decoration: none;
+    color: #eee;
+}
 .jumbotron h1{
     text-align: center;
 }
