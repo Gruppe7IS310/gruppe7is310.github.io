@@ -55,6 +55,9 @@ footer{
     background-color: #C22963;
     color: #fff;
 }
+.showcase{
+    width:100%;
+}
 .btn-info:hover{
     border-color: #ee4f89;
     background-color: #ee4f89;
