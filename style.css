@@ -1,7 +1,7 @@
 /*Header*/
 .jumbotron{
     padding:2rem 3rem;
-    background-color: #fa26a0;
+    background-color: #d8477d;
     border-radius: 0px;
     color:#fff;
     font-weight: bolder;
@@ -45,20 +45,20 @@ body{
 
 footer{
     margin-top: 4rem;
-    background-color: #fa26a0;
+    background-color: #d8477d;
     height:100px;
     color:#fff;
 }
 
 .btn-outline-info{
-    border-color: #fa26a0;
-    color: hotpink;
+    border-color: #d8477d;
+    color: #d8477d;
 }
 
 
 .btn-outline-info:hover{
-    border-color: #fa26a0;
-    background-color: #fa26a0;
+    border-color: #d8477d;
+    background-color: #d8477d;
 }
 .display-8{
     margin: 2rem 0;
