@@ -1,7 +1,7 @@
 /*Header*/
 .jumbotron{
     padding:2rem 3rem;
-    background-color: #d8477d;
+    background-color: #C22963;
     border-radius: 0px;
     color:#fff;
     font-weight: bolder;
@@ -45,20 +45,23 @@ body{
 
 footer{
     margin-top: 4rem;
-    background-color: #d8477d;
+    background-color: #C22963;
     height:100px;
     color:#fff;
 }
 
-.btn-outline-info{
-    border-color: #d8477d;
-    color: #d8477d;
+.btn-info{
+    border-color: #C22963;
+    background-color: #C22963;
+    color: #fff;
 }
-
-
-.btn-outline-info:hover{
-    border-color: #d8477d;
-    background-color: #d8477d;
+.btn-info:hover{
+    border-color: #ee4f89;
+    background-color: #ee4f89;
+}
+.btn-info:focus{
+    border-color: #ee4f89;
+    background-color: #ee4f89;
 }
 .display-8{
     margin: 2rem 0;
@@ -84,18 +87,12 @@ h5{
     filter:grayscale(0%);
     animation: pictureAnimation 0.2s;
 }
+
 .libtn{
-    border-color: #0072b1;
-    color: #0072b1;
-}
-.libtn:hover{
     background-color: #0072b1;
-    border-color: #0072b1;
-}
-.libtn:hover span{
     color:#fff;
 }
-.libtn:hover img{
+.libtn img{
     filter:invert(100%);
 }
 .card-img-top{
